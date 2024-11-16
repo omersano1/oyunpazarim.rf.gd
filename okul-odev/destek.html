@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <img src="resimler/logo.png" />
+        <h2 id="h1">Benim Pazarım, Oyun Pazarım.</h2>
+      </div>
+      <div id="tabs">
+        <a href="index.html?v=1"> Ana Sayfa</a>
+        
+        
+        <nav class="menu">
+          <div class="menu-item">
+            <a href="#">Kategoriler</a>
+            <div class="dropdown">
+              <a href="action.html?v=1">Aksiyon Oyunları</a>
+              <a href="strategy.html?v=1">Strateji Oyunları</a>
+              <a href="keys.html?v=1">Steam Keyleri</a>
+            </div>
+          </div>
+        </nav>
+        <nav class="menu">
+          <div class="menu-item">
+              <a href="#"> İletişim</a>
+            <div class="dropdown">
+              <a href="#">Adres <h6>İstanbul/Pendik</h6></a>
+              <a href="#">E-Posta <h6>atlenticoc@gmail.com</h6></a>
+              <a href="destek.html?v=1">Destek</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="h1">
+        <h1>İletişim Formu</h1>
+      </div>
+
+    <div id="form12">
+        <form action="#?v=1" method="get"> <!-- Form verileri gönderileceği sayfa -->
+            <label for="name">Adınız:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">E-posta Adresiniz:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mesajınız:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Gönder">
+        </form>
+    </div>
+
+</body>
+</html>
