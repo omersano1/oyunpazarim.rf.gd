@@ -42,6 +42,7 @@
     white-space: wrap; 
   }
   #tabs {
+    justify-content: center;
     width: 100%;
     height: 35px;
     display:flex;
